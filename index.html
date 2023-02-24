@@ -1,1 +1,27 @@
-this is jonpty
+<html>
+  
+<head>
+  <title>Click ME</title>
+</head>
+  
+<body>
+  <h1>Clicker Game v0.1</h1>
+  
+  <p>Click This to Increase your Score</p>
+  
+  <p id = "Score">Score: 0</p>
+  
+  <button on click="up()">Click Me!</button>
+</body>
+  
+</html>
+<script>
+  
+  var points = 0;
+  
+  function up(){
+    
+    points ++;
+    document.getElementById("score").innerHTML = "" + points;
+  }
+</script>
