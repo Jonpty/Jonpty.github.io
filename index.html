@@ -5,13 +5,15 @@
 </head>
   
 <body>
-  <h1>Clicker Game v0.1</h1>
+  <div id="content">
+    <h1>Clicker Game v0.1</h1>
   
   <p>Click This to Increase your Score</p>
   
   <p id="Score">Score: 0</p>
   
-  <button onclick="up()">                                                                                                               Click Me!</button>
+  <button onclick="up()"> Click Me!</button>
+  </div>
 </body>
   
 </html>
@@ -25,3 +27,16 @@
     document.getElementById("Score").innerHTML = "Score: " + points;
   }
 </script>
+
+<style>
+  
+  #content {
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+  }
+  
+</style>
