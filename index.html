@@ -14,7 +14,13 @@
   
   <button onclick="up()"> Click Me!</button>
   </div>
-
+  <div id="more">
+    <p>Buy 1Cps AutoClicker</p>
+    <p>Cost: 100<p>
+    <p id="Owned">Owned: 0</p>
+    <button onclick="Cps()"> +1Cps</button>
+  </div>
+    
 </body>
   
 </html>
@@ -27,13 +33,25 @@
     points ++;
     document.getElementById("Score").innerHTML = "Score: " + points;
   }
+  
+  var Cps = 0;
+  
+  function Cps(){
+    
+    setinterval(time, 1000)
+    
+    Cps ++;
+    document.getElementById("Cps").innerHTML = "Score: " + Cps;
+  }
+    
 </script>
 
 <style>
   body{
      background-color: black;
     color: white;}
-  <div>
+  #more {
+  }
   #content {
     
     position: absolute;
@@ -42,5 +60,4 @@
     transform: translate(-50%, -50%);
     
   }
-  </div>
 </style>
