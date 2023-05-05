@@ -1,0 +1,32 @@
+<body>
+  
+  <div id="content">
+    
+    <button onclick="location.replace('https://scratch.mit.edu/projects/569504036/')">Way Of The Cube 1</button><br>
+    <button onclick="location.replace('https://scratch.mit.edu/projects/582136428/')">Way Of The Cube 2</button>
+    <button onclick="location.replace('https://scratch.mit.edu/projects/603719066/')">Way Of The Cube 3</button>
+    <button onclick="location.replace('https://scratch.mit.edu/projects/608071042/')">Way Of The Cube 4</button>
+    <button onclick="location.replace('https://scratch.mit.edu/projects/630493631/')">Way Of The Cube 5</button>
+    <button onclick="location.replace('https://scratch.mit.edu/projects/729319351/')">Way Of The Cube 6</button>
+    
+  </div>
+    
+</body>
+
+<style>
+  #content {
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+  }
+  
+  button {
+   
+    width: 300px;
+    height: 250px;
+    
+  }
+</style>
