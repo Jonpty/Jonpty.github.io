@@ -1,1 +1,29 @@
+<body>
+  
+  <div id="content">
+    <h5> 'Made By Isaac Yeow' </h5>
+    <button onclick="location.replace('https://scratch.mit.edu/projects/861010752/')">Way Of The Cube Hardcore!!!</button><br>
+    <button onclick="location.replace('https://scratch.mit.edu/projects/862273586')">Way Of The Cube 2 Hardcore!!!</button><br>
 
+    
+  </div>
+    
+</body>
+
+<style>
+  #content {
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+  }
+  
+  button {
+   
+    width: 150px;
+    height: 100px;
+    
+  }
+</style>
